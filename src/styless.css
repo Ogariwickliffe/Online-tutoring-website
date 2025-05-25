@@ -1,0 +1,177 @@
+/* Base Styles (Mobile-first) */
+body {
+    font-family: 'Comfortaa', sans-serif;
+    color: #1a202c; /* Gray 900 */
+  }
+  
+  section {
+    padding: 1rem;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  a {
+    background-color: #c53030; /* Red-800 */
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #9b2c2c; /* Red-700 */
+  }
+
+  
+  /* 320px - 375px (Small screens) */
+@media (min-width: 320px) and (max-width: 375px) {
+  h1 {
+    font-size: 2rem; /* Adjusted font size */
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  section {
+    padding: 1.25rem;
+  }
+}
+
+/* 425px (Large smartphones) */
+@media (min-width: 376px) and (max-width: 425px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+}
+
+/* 768px (Tablets) */
+@media (min-width: 426px) and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  .container {
+    padding: 2rem;
+  }
+
+  /* Flex layout for the Welcome Section */
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .md:w-1/2 {
+    width: 50%;
+  }
+}
+
+/* 1024px (Small laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .md:w-1/2 {
+    width: 50%;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  /* Update image size */
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* 1440px (Desktops) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .md:w-1/2 {
+    width: 50%;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+}
+
+/* 2560px (Ultra-wide screens) */
+@media (min-width: 1441px) and (max-width: 2560px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+  }
+
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}
