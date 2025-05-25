@@ -2,7 +2,7 @@
 
 A fully functional and responsive education website developed using **HTML**, **CSS**, **JavaScript**, and **React.js**. This platform is designed to facilitate online tutoring by offering seamless navigation, interactive UI components, and features that enhance the learning experience for both students and tutors.
 
-## 🌟 Features
+## Features
 
 - ✅ Modern, responsive UI
 - ✅ Tutor and student-friendly interface
@@ -10,7 +10,7 @@ A fully functional and responsive education website developed using **HTML**, **
 - ✅ Contact and inquiry form
 - ✅ Clean, organized code structure
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
@@ -19,17 +19,28 @@ A fully functional and responsive education website developed using **HTML**, **
 - React Router
 - Axios (if applicable)
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1. Clone the Repository
+1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/online-tutoring-website.git
-cd online-tutoring-website
+   ```bash
+   git clone https://github.com/your-username/online-tutoring-website.git
+   cd online-tutoring-website
+   ```
 
-### 2. Install dependencies
-Run the code npm install
+2. Install dependencies
 
-### 3. Run the app
-Run the code npm start
+   Run the code
+   
+   ```bash
+   npm install
+   ```
+
+4. Run the app
+
+   Run the code
+
+   ```bash
+   npm start
+   ```
 
